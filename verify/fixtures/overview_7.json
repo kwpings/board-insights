@@ -1,0 +1,128 @@
+{
+ "now": 1792544255.131686,
+ "days": 7,
+ "boards": [
+  "core"
+ ],
+ "columns": {
+  "done": 50,
+  "ready": 1,
+  "blocked": 2,
+  "todo": 11,
+  "running": 4
+ },
+ "backlog_columns": {
+  "ready": 1,
+  "blocked": 2,
+  "todo": 11,
+  "running": 4
+ },
+ "tiles": {
+  "in_flight": 6,
+  "running": 4,
+  "blocked": 2,
+  "review": 0,
+  "ready": 1,
+  "queue": 12,
+  "created_7d": 68,
+  "completed_7d": 50,
+  "completed_prev_7d": 0,
+  "net_7d": 18
+ },
+ "blockers": [
+  {
+   "id": "t_0071",
+   "board": "core",
+   "board_name": "Core queue",
+   "title": "Review the migration plan before friday",
+   "status": "blocked",
+   "assignee": "builder",
+   "age_h": 12.5,
+   "running_h": 12.4,
+   "waiting_h": 12.4
+  },
+  {
+   "id": "t_0103",
+   "board": "core",
+   "board_name": "Core queue",
+   "title": "Cut the release branch and tag it",
+   "status": "blocked",
+   "assignee": "marketer",
+   "age_h": 1.2,
+   "running_h": 1.2,
+   "waiting_h": 1.2
+  }
+ ],
+ "running_top": [
+  {
+   "id": "t_0098",
+   "board": "core",
+   "board_name": "Core queue",
+   "title": "Add an index on the events table",
+   "status": "running",
+   "assignee": "builder",
+   "age_h": 0.3,
+   "running_h": 0.2,
+   "waiting_h": 0.2
+  },
+  {
+   "id": "t_0099",
+   "board": "core",
+   "board_name": "Core queue",
+   "title": "Deduplicate the notification emails",
+   "status": "running",
+   "assignee": "builder",
+   "age_h": 0.3,
+   "running_h": 0.2,
+   "waiting_h": 0.2
+  },
+  {
+   "id": "t_0102",
+   "board": "core",
+   "board_name": "Core queue",
+   "title": "Tighten the validation on the import",
+   "status": "running",
+   "assignee": "builder",
+   "age_h": 0.2,
+   "running_h": 0.2,
+   "waiting_h": 0.2
+  },
+  {
+   "id": "t_0096",
+   "board": "core",
+   "board_name": "Core queue",
+   "title": "Replace the polling loop with a websocket",
+   "status": "running",
+   "assignee": "automation",
+   "age_h": 0.0,
+   "running_h": 0.0,
+   "waiting_h": 0.0
+  }
+ ],
+ "oldest_ready": [
+  {
+   "id": "t_0054",
+   "board": "core",
+   "board_name": "Core queue",
+   "title": "Log the slowest query per request",
+   "status": "ready",
+   "assignee": null,
+   "age_h": 14.1,
+   "running_h": null,
+   "waiting_h": 14.1
+  }
+ ],
+ "cycle": {
+  "run": {
+   "median_h": 0.1,
+   "p90_h": 0.3,
+   "n": 50
+  },
+  "lead": {
+   "median_h": 0.1,
+   "p90_h": 0.3,
+   "n": 50
+  }
+ },
+ "errors": []
+}

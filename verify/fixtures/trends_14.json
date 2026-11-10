@@ -1,0 +1,226 @@
+{
+ "now": 1792544255.1367037,
+ "days": 14,
+ "boards": [
+  "core"
+ ],
+ "series": {
+  "days": [
+   {
+    "day": "2026-10-08",
+    "label": "Oct 08",
+    "created": 0,
+    "completed": 0
+   },
+   {
+    "day": "2026-10-09",
+    "label": "Oct 09",
+    "created": 0,
+    "completed": 0
+   },
+   {
+    "day": "2026-10-10",
+    "label": "Oct 10",
+    "created": 0,
+    "completed": 0
+   },
+   {
+    "day": "2026-10-11",
+    "label": "Oct 11",
+    "created": 0,
+    "completed": 0
+   },
+   {
+    "day": "2026-10-12",
+    "label": "Oct 12",
+    "created": 0,
+    "completed": 0
+   },
+   {
+    "day": "2026-10-13",
+    "label": "Oct 13",
+    "created": 0,
+    "completed": 0
+   },
+   {
+    "day": "2026-10-14",
+    "label": "Oct 14",
+    "created": 0,
+    "completed": 0
+   },
+   {
+    "day": "2026-10-15",
+    "label": "Oct 15",
+    "created": 0,
+    "completed": 0
+   },
+   {
+    "day": "2026-10-16",
+    "label": "Oct 16",
+    "created": 0,
+    "completed": 0
+   },
+   {
+    "day": "2026-10-17",
+    "label": "Oct 17",
+    "created": 0,
+    "completed": 0
+   },
+   {
+    "day": "2026-10-18",
+    "label": "Oct 18",
+    "created": 0,
+    "completed": 0
+   },
+   {
+    "day": "2026-10-19",
+    "label": "Oct 19",
+    "created": 23,
+    "completed": 23
+   },
+   {
+    "day": "2026-10-20",
+    "label": "Oct 20",
+    "created": 21,
+    "completed": 13
+   },
+   {
+    "day": "2026-10-21",
+    "label": "Oct 21",
+    "created": 25,
+    "completed": 14
+   }
+  ],
+  "dips": [],
+  "typical_completed": 14,
+  "first_active": "2026-10-19"
+ },
+ "cycle": {
+  "run": {
+   "median_h": 0.1,
+   "p90_h": 0.3,
+   "n": 50
+  },
+  "lead": {
+   "median_h": 0.1,
+   "p90_h": 0.3,
+   "n": 50
+  }
+ },
+ "by_assignee": [
+  {
+   "assignee": "builder",
+   "running": 3,
+   "blocked": 1,
+   "review": 0,
+   "ready": 0,
+   "open": 12,
+   "completed": 6,
+   "failed": 2
+  },
+  {
+   "assignee": "marketer",
+   "running": 0,
+   "blocked": 1,
+   "review": 0,
+   "ready": 0,
+   "open": 2,
+   "completed": 6,
+   "failed": 0
+  },
+  {
+   "assignee": "automation",
+   "running": 1,
+   "blocked": 0,
+   "review": 0,
+   "ready": 0,
+   "open": 1,
+   "completed": 17,
+   "failed": 0
+  },
+  {
+   "assignee": "designer",
+   "running": 0,
+   "blocked": 0,
+   "review": 0,
+   "ready": 0,
+   "open": 1,
+   "completed": 5,
+   "failed": 2
+  },
+  {
+   "assignee": "reviewer",
+   "running": 0,
+   "blocked": 0,
+   "review": 0,
+   "ready": 0,
+   "open": 1,
+   "completed": 2,
+   "failed": 2
+  },
+  {
+   "assignee": "unassigned",
+   "running": 0,
+   "blocked": 0,
+   "review": 0,
+   "ready": 1,
+   "open": 1,
+   "completed": 0,
+   "failed": 0
+  },
+  {
+   "assignee": "architect",
+   "running": 0,
+   "blocked": 0,
+   "review": 0,
+   "ready": 0,
+   "open": 0,
+   "completed": 11,
+   "failed": 0
+  },
+  {
+   "assignee": "manager",
+   "running": 0,
+   "blocked": 0,
+   "review": 0,
+   "ready": 0,
+   "open": 0,
+   "completed": 1,
+   "failed": 0
+  },
+  {
+   "assignee": "ops",
+   "running": 0,
+   "blocked": 0,
+   "review": 0,
+   "ready": 0,
+   "open": 0,
+   "completed": 1,
+   "failed": 0
+  },
+  {
+   "assignee": "orchestrator",
+   "running": 0,
+   "blocked": 0,
+   "review": 0,
+   "ready": 0,
+   "open": 0,
+   "completed": 1,
+   "failed": 2
+  }
+ ],
+ "runs": {
+  "total": 66,
+  "avg_hours": 0.1,
+  "ok": 50,
+  "changes": 0,
+  "review": 0,
+  "blocked": 4,
+  "reclaimed": 0,
+  "failed": 8,
+  "active": 4,
+  "stale": 0,
+  "other": 0
+ },
+ "errors": []
+}

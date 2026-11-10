@@ -1,0 +1,118 @@
+{
+ "now": 1792007596.087412,
+ "days": 7,
+ "boards": [
+  "agents",
+  "all",
+  "delivery",
+  "linkedin",
+  "personal"
+ ],
+ "columns": {
+  "ready": 32,
+  "triage": 3,
+  "done": 3,
+  "blocked": 1
+ },
+ "backlog_columns": {
+  "ready": 32,
+  "triage": 3,
+  "blocked": 1
+ },
+ "tiles": {
+  "in_flight": 1,
+  "running": 0,
+  "blocked": 1,
+  "review": 0,
+  "ready": 32,
+  "queue": 35,
+  "created_7d": 39,
+  "completed_7d": 3,
+  "completed_prev_7d": 0,
+  "net_7d": 36
+ },
+ "blockers": [
+  {
+   "id": "t_0070",
+   "board": "delivery",
+   "board_name": "Core queue",
+   "title": "Add an index on the events table",
+   "status": "blocked",
+   "assignee": "default",
+   "age_h": 109.4,
+   "running_h": 5.8,
+   "waiting_h": 5.8
+  }
+ ],
+ "running_top": [],
+ "oldest_ready": [
+  {
+   "id": "t_0045",
+   "board": "delivery",
+   "board_name": "Core queue",
+   "title": "Deduplicate the notification emails",
+   "status": "ready",
+   "assignee": null,
+   "age_h": 109.4,
+   "running_h": null,
+   "waiting_h": 109.4
+  },
+  {
+   "id": "t_0046",
+   "board": "delivery",
+   "board_name": "Core queue",
+   "title": "Tighten the validation on the import",
+   "status": "ready",
+   "assignee": null,
+   "age_h": 109.4,
+   "running_h": null,
+   "waiting_h": 109.4
+  },
+  {
+   "id": "t_0047",
+   "board": "delivery",
+   "board_name": "Core queue",
+   "title": "Replace the polling loop with a websocket",
+   "status": "ready",
+   "assignee": null,
+   "age_h": 109.4,
+   "running_h": null,
+   "waiting_h": 109.4
+  },
+  {
+   "id": "t_0048",
+   "board": "delivery",
+   "board_name": "Core queue",
+   "title": "Log the slowest query per request",
+   "status": "ready",
+   "assignee": null,
+   "age_h": 109.4,
+   "running_h": null,
+   "waiting_h": 109.4
+  },
+  {
+   "id": "t_0049",
+   "board": "delivery",
+   "board_name": "Core queue",
+   "title": "Expose a health endpoint on the worker",
+   "status": "ready",
+   "assignee": null,
+   "age_h": 109.4,
+   "running_h": null,
+   "waiting_h": 109.4
+  }
+ ],
+ "cycle": {
+  "run": {
+   "median_h": 0.7,
+   "p90_h": 0.7,
+   "n": 3
+  },
+  "lead": {
+   "median_h": 104.0,
+   "p90_h": 104.3,
+   "n": 3
+  }
+ },
+ "errors": []
+}

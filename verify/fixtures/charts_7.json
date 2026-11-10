@@ -1,0 +1,1345 @@
+{
+ "now": 1792544255.1227694,
+ "days": 7,
+ "boards": [
+  "core"
+ ],
+ "completed_over_time": {
+  "granularity": "day",
+  "days": 7,
+  "buckets": [
+   {
+    "label": "Oct 14",
+    "start": 1791939455.1227694,
+    "end": 1792025855.1227694,
+    "count": 0,
+    "ids": [],
+    "ma": 0.0
+   },
+   {
+    "label": "Oct 15",
+    "start": 1792025855.1227694,
+    "end": 1792112255.1227694,
+    "count": 0,
+    "ids": [],
+    "ma": 0.0
+   },
+   {
+    "label": "Oct 16",
+    "start": 1792112255.1227694,
+    "end": 1792198655.1227694,
+    "count": 0,
+    "ids": [],
+    "ma": 0.0
+   },
+   {
+    "label": "Oct 17",
+    "start": 1792198655.1227694,
+    "end": 1792285055.1227694,
+    "count": 0,
+    "ids": [],
+    "ma": 0.0
+   },
+   {
+    "label": "Oct 18",
+    "start": 1792285055.1227694,
+    "end": 1792371455.1227694,
+    "count": 0,
+    "ids": [],
+    "ma": 0.0
+   },
+   {
+    "label": "Oct 19",
+    "start": 1792371455.1227694,
+    "end": 1792457855.1227694,
+    "count": 23,
+    "ids": [
+     "t_0080",
+     "t_0001",
+     "t_0002",
+     "t_0003",
+     "t_0004",
+     "t_0005",
+     "t_0006",
+     "t_0007",
+     "t_0008",
+     "t_0009",
+     "t_0010",
+     "t_0011",
+     "t_0012",
+     "t_0013",
+     "t_0014",
+     "t_0015",
+     "t_0016",
+     "t_0017",
+     "t_0018",
+     "t_0019",
+     "t_0020",
+     "t_0021",
+     "t_0022"
+    ],
+    "ma": 3.83
+   },
+   {
+    "label": "Oct 20",
+    "start": 1792457855.1227694,
+    "end": 1792544255.1227694,
+    "count": 27,
+    "ids": [
+     "t_0023",
+     "t_0024",
+     "t_0025",
+     "t_0026",
+     "t_0027",
+     "t_0028",
+     "t_0029",
+     "t_0030",
+     "t_0031",
+     "t_0032",
+     "t_0033",
+     "t_0034",
+     "t_0077",
+     "t_0082",
+     "t_0083",
+     "t_0084",
+     "t_0085",
+     "t_0086",
+     "t_0087",
+     "t_0088",
+     "t_0089",
+     "t_0090",
+     "t_0091",
+     "t_0092",
+     "t_0093",
+     "t_0094",
+     "t_0095"
+    ],
+    "ma": 7.14
+   }
+  ],
+  "total": 50
+ },
+ "by_department": {
+  "rows": [
+   {
+    "department": "Automation",
+    "open": 1,
+    "done": 17,
+    "open_ids": [
+     "t_0096"
+    ],
+    "done_ids": [
+     "t_0001",
+     "t_0002",
+     "t_0005",
+     "t_0008",
+     "t_0009",
+     "t_0011",
+     "t_0013",
+     "t_0014",
+     "t_0016",
+     "t_0021",
+     "t_0024",
+     "t_0025",
+     "t_0026",
+     "t_0030",
+     "t_0031",
+     "t_0032",
+     "t_0093"
+    ],
+    "assignees": [
+     "automation"
+    ],
+    "total": 18
+   },
+   {
+    "department": "Build",
+    "open": 12,
+    "done": 6,
+    "open_ids": [
+     "t_0071",
+     "t_0072",
+     "t_0073",
+     "t_0074",
+     "t_0075",
+     "t_0076",
+     "t_0097",
+     "t_0098",
+     "t_0099",
+     "t_0100",
+     "t_0101",
+     "t_0102"
+    ],
+    "done_ids": [
+     "t_0010",
+     "t_0022",
+     "t_0033",
+     "t_0034",
+     "t_0077",
+     "t_0094"
+    ],
+    "assignees": [
+     "builder"
+    ],
+    "total": 18
+   },
+   {
+    "department": "Platform",
+    "open": 0,
+    "done": 11,
+    "open_ids": [],
+    "done_ids": [
+     "t_0003",
+     "t_0004",
+     "t_0006",
+     "t_0007",
+     "t_0012",
+     "t_0015",
+     "t_0027",
+     "t_0029",
+     "t_0082",
+     "t_0084",
+     "t_0095"
+    ],
+    "assignees": [
+     "architect"
+    ],
+    "total": 11
+   },
+   {
+    "department": "Marketing",
+    "open": 2,
+    "done": 6,
+    "open_ids": [
+     "t_0103",
+     "t_0104"
+    ],
+    "done_ids": [
+     "t_0023",
+     "t_0083",
+     "t_0086",
+     "t_0089",
+     "t_0090",
+     "t_0092"
+    ],
+    "assignees": [
+     "marketer"
+    ],
+    "total": 8
+   },
+   {
+    "department": "Design",
+    "open": 1,
+    "done": 5,
+    "open_ids": [
+     "t_0105"
+    ],
+    "done_ids": [
+     "t_0017",
+     "t_0085",
+     "t_0087",
+     "t_0088",
+     "t_0091"
+    ],
+    "assignees": [
+     "designer"
+    ],
+    "total": 6
+   },
+   {
+    "department": "Review",
+    "open": 1,
+    "done": 2,
+    "open_ids": [
+     "t_0106"
+    ],
+    "done_ids": [
+     "t_0018",
+     "t_0028"
+    ],
+    "assignees": [
+     "reviewer"
+    ],
+    "total": 3
+   },
+   {
+    "department": "Operations",
+    "open": 0,
+    "done": 1,
+    "open_ids": [],
+    "done_ids": [
+     "t_0080"
+    ],
+    "assignees": [
+     "ops"
+    ],
+    "total": 1
+   },
+   {
+    "department": "ceo",
+    "open": 0,
+    "done": 1,
+    "open_ids": [],
+    "done_ids": [
+     "t_0020"
+    ],
+    "assignees": [
+     "manager"
+    ],
+    "total": 1
+   },
+   {
+    "department": "orchestrator",
+    "open": 0,
+    "done": 1,
+    "open_ids": [],
+    "done_ids": [
+     "t_0019"
+    ],
+    "assignees": [
+     "orchestrator"
+    ],
+    "total": 1
+   },
+   {
+    "department": "unassigned",
+    "open": 1,
+    "done": 0,
+    "open_ids": [
+     "t_0054"
+    ],
+    "done_ids": [],
+    "assignees": [],
+    "total": 1
+   }
+  ],
+  "total": 68,
+  "open": 18,
+  "done": 50
+ },
+ "workload_by_status": {
+  "rows": [
+   {
+    "status": "todo",
+    "count": 11,
+    "ids": [
+     "t_0072",
+     "t_0073",
+     "t_0074",
+     "t_0075",
+     "t_0076",
+     "t_0104",
+     "t_0105",
+     "t_0097",
+     "t_0106",
+     "t_0100",
+     "t_0101"
+    ]
+   },
+   {
+    "status": "ready",
+    "count": 1,
+    "ids": [
+     "t_0054"
+    ]
+   },
+   {
+    "status": "running",
+    "count": 4,
+    "ids": [
+     "t_0098",
+     "t_0099",
+     "t_0102",
+     "t_0096"
+    ]
+   },
+   {
+    "status": "blocked",
+    "count": 2,
+    "ids": [
+     "t_0071",
+     "t_0103"
+    ]
+   },
+   {
+    "status": "done",
+    "count": 50,
+    "ids": [
+     "t_0080",
+     "t_0001",
+     "t_0002",
+     "t_0003",
+     "t_0004",
+     "t_0005",
+     "t_0006",
+     "t_0007",
+     "t_0008",
+     "t_0009",
+     "t_0010",
+     "t_0011",
+     "t_0012",
+     "t_0013",
+     "t_0014",
+     "t_0015",
+     "t_0016",
+     "t_0017",
+     "t_0018",
+     "t_0019",
+     "t_0020",
+     "t_0021",
+     "t_0022",
+     "t_0023",
+     "t_0024",
+     "t_0025",
+     "t_0026",
+     "t_0027",
+     "t_0028",
+     "t_0029",
+     "t_0030",
+     "t_0031",
+     "t_0032",
+     "t_0033",
+     "t_0034",
+     "t_0077",
+     "t_0082",
+     "t_0083",
+     "t_0084",
+     "t_0085",
+     "t_0086",
+     "t_0087",
+     "t_0088",
+     "t_0089",
+     "t_0090",
+     "t_0091",
+     "t_0092",
+     "t_0093",
+     "t_0094",
+     "t_0095"
+    ]
+   }
+  ],
+  "total": 68
+ },
+ "standups": {
+  "rows": [
+   {
+    "department": "Automation",
+    "finished": [
+     {
+      "id": "t_0093",
+      "board": "core",
+      "board_name": "Core queue",
+      "title": "Cache the profile lookup per request",
+      "assignee": "automation",
+      "summary": "Landed with a test that fails without the change.",
+      "comment": "Checked the edge case where the list is empty; behaves as expected.",
+      "comment_author": "automation",
+      "status": "done",
+      "completed_at": 1792542967,
+      "last_event": 1792542967,
+      "last_event_h": 0.4
+     },
+     {
+      "id": "t_0032",
+      "board": "core",
+      "board_name": "Core queue",
+      "title": "Add a filter box to the card list",
+      "assignee": "automation",
+      "summary": "Done: the behaviour is covered by the new fixture.",
+      "comment": null,
+      "comment_author": null,
+      "status": "done",
+      "completed_at": 1792500374,
+      "last_event": 1792500374,
+      "last_event_h": 12.2
+     },
+     {
+      "id": "t_0031",
+      "board": "core",
+      "board_name": "Core queue",
+      "title": "Move the chart legend under the plot",
+      "assignee": "automation",
+      "summary": "Shipped behind the existing flag, no config change needed.",
+      "comment": "Reproduced the failure first, then fixed it.",
+      "comment_author": "automation",
+      "status": "done",
+      "completed_at": 1792500232,
+      "last_event": 1792500232,
+      "last_event_h": 12.2
+     },
+     {
+      "id": "t_0030",
+      "board": "core",
+      "board_name": "Core queue",
+      "title": "Ship the empty state for a fresh install",
+      "assignee": "automation",
+      "summary": "Verified against the acceptance criteria on the card.",
+      "comment": null,
+      "comment_author": null,
+      "status": "done",
+      "completed_at": 1792500205,
+      "last_event": 1792500205,
+      "last_event_h": 12.2
+     },
+     {
+      "id": "t_0025",
+      "board": "core",
+      "board_name": "Core queue",
+      "title": "Measure p95 latency on the search path",
+      "assignee": "automation",
+      "summary": "Refactored, then re-ran the suite twice to rule out flake.",
+      "comment": "Checked the edge case where the list is empty; behaves as expected.",
+      "comment_author": "automation",
+      "status": "done",
+      "completed_at": 1792499816,
+      "last_event": 1792499816,
+      "last_event_h": 12.3
+     },
+     {
+      "id": "t_0026",
+      "board": "core",
+      "board_name": "Core queue",
+      "title": "Backfill the missing created_at values",
+      "assignee": "automation",
+      "summary": "Landed with a test that fails without the change.",
+      "comment": "Left a note in the PR about the follow-up this unblocks.",
+      "comment_author": "automation",
+      "status": "done",
+      "completed_at": 1792499528,
+      "last_event": 1792499528,
+      "last_event_h": 12.4
+     },
+     {
+      "id": "t_0024",
+      "board": "core",
+      "board_name": "Core queue",
+      "title": "Review the migration plan before friday",
+      "assignee": "automation",
+      "summary": "Done: the behaviour is covered by the new fixture.",
+      "comment": "Reproduced the failure first, then fixed it.",
+      "comment_author": "manager",
+      "status": "done",
+      "completed_at": 1792498544,
+      "last_event": 1792498569,
+      "last_event_h": 12.7
+     },
+     {
+      "id": "t_0013",
+      "board": "core",
+      "board_name": "Core queue",
+      "title": "Cut the release branch and tag it",
+      "assignee": "automation",
+      "summary": "Shipped behind the existing flag, no config change needed.",
+      "comment": "Numbers in the ticket were stale; used the fresh run instead.",
+      "comment_author": "automation",
+      "status": "done",
+      "completed_at": 1792421153,
+      "last_event": 1792421153,
+      "last_event_h": 34.2
+     },
+     {
+      "id": "t_0014",
+      "board": "core",
+      "board_name": "Core queue",
+      "title": "Add an index on the events table",
+      "assignee": "automation",
+      "summary": "Verified against the acceptance criteria on the card.",
+      "comment": "Checked the edge case where the list is empty; behaves as expected.",
+      "comment_author": "manager",
+      "status": "done",
+      "completed_at": 1792420905,
+      "last_event": 1792420914,
+      "last_event_h": 34.3
+     },
+     {
+      "id": "t_0016",
+      "board": "core",
+      "board_name": "Core queue",
+      "title": "Deduplicate the notification emails",
+      "assignee": "automation",
+      "summary": "Refactored, then re-ran the suite twice to rule out flake.",
+      "comment": "Left a note in the PR about the follow-up this unblocks.",
+      "comment_author": "automation",
+      "status": "done",
+      "completed_at": 1792420872,
+      "last_event": 1792420872,
+      "last_event_h": 34.3
+     },
+     {
+      "id": "t_0021",
+      "board": "core",
+      "board_name": "Core queue",
+      "title": "Tighten the validation on the import",
+      "assignee": "automation",
+      "summary": "Landed with a test that fails without the change.",
+      "comment": "Reproduced the failure first, then fixed it.",
+      "comment_author": "automation",
+      "status": "done",
+      "completed_at": 1792420852,
+      "last_event": 1792420852,
+      "last_event_h": 34.3
+     },
+     {
+      "id": "t_0011",
+      "board": "core",
+      "board_name": "Core queue",
+      "title": "Replace the polling loop with a websocket",
+      "assignee": "automation",
+      "summary": "Done: the behaviour is covered by the new fixture.",
+      "comment": "Numbers in the ticket were stale; used the fresh run instead.",
+      "comment_author": "automation",
+      "status": "done",
+      "completed_at": 1792420771,
+      "last_event": 1792420771,
+      "last_event_h": 34.3
+     },
+     {
+      "id": "t_0005",
+      "board": "core",
+      "board_name": "Core queue",
+      "title": "Log the slowest query per request",
+      "assignee": "automation",
+      "summary": "Shipped behind the existing flag, no config change needed.",
+      "comment": "Checked the edge case where the list is empty; behaves as expected.",
+      "comment_author": "automation",
+      "status": "done",
+      "completed_at": 1792420583,
+      "last_event": 1792420583,
+      "last_event_h": 34.4
+     },
+     {
+      "id": "t_0008",
+      "board": "core",
+      "board_name": "Core queue",
+      "title": "Expose a health endpoint on the worker",
+      "assignee": "automation",
+      "summary": "Verified against the acceptance criteria on the card.",
+      "comment": "Left a note in the PR about the follow-up this unblocks.",
+      "comment_author": "automation",
+      "status": "done",
+      "completed_at": 1792420524,
+      "last_event": 1792420524,
+      "last_event_h": 34.4
+     },
+     {
+      "id": "t_0009",
+      "board": "core",
+      "board_name": "Core queue",
+      "title": "Tidy the error messages in the CLI",
+      "assignee": "automation",
+      "summary": "Refactored, then re-ran the suite twice to rule out flake.",
+      "comment": "Reproduced the failure first, then fixed it.",
+      "comment_author": "automation",
+      "status": "done",
+      "completed_at": 1792420360,
+      "last_event": 1792420360,
+      "last_event_h": 34.4
+     },
+     {
+      "id": "t_0002",
+      "board": "core",
+      "board_name": "Core queue",
+      "title": "Retire the old config flags",
+      "assignee": "automation",
+      "summary": "Landed with a test that fails without the change.",
+      "comment": null,
+      "comment_author": null,
+      "status": "done",
+      "completed_at": 1792419019,
+      "last_event": 1792419019,
+      "last_event_h": 34.8
+     },
+     {
+      "id": "t_0001",
+      "board": "core",
+      "board_name": "Core queue",
+      "title": "Pin the dependency floor and ceiling",
+      "assignee": "automation",
+      "summary": "Done: the behaviour is covered by the new fixture.",
+      "comment": null,
+      "comment_author": null,
+      "status": "done",
+      "completed_at": 1792418331,
+      "last_event": 1792418331,
+      "last_event_h": 35.0
+     }
+    ],
+    "running": [
+     {
+      "id": "t_0096",
+      "board": "core",
+      "board_name": "Core queue",
+      "title": "Add a smoke test for the auth flow",
+      "assignee": "automation",
+      "status": "running",
+      "started_at": 1792544220,
+      "running_h": 0.0,
+      "summary": null
+     }
+    ],
+    "blocked": [],
+    "activity": 18
+   },
+   {
+    "department": "Platform",
+    "finished": [
+     {
+      "id": "t_0095",
+      "board": "core",
+      "board_name": "Core queue",
+      "title": "Add a retry budget to the queue worker",
+      "assignee": "architect",
+      "summary": "Landed with a test that fails without the change.",
+      "comment": "Checked the edge case where the list is empty; behaves as expected.",
+      "comment_author": "architect",
+      "status": "done",
+      "completed_at": 1792543617,
+      "last_event": 1792543617,
+      "last_event_h": 0.2
+     },
+     {
+      "id": "t_0084",
+      "board": "core",
+      "board_name": "Core queue",
+      "title": "Write the runbook for the nightly export",
+      "assignee": "architect",
+      "summary": "Done: the behaviour is covered by the new fixture.",
+      "comment": null,
+      "comment_author": null,
+      "status": "done",
+      "completed_at": 1792537859,
+      "last_event": 1792537859,
+      "last_event_h": 1.8
+     },
+     {
+      "id": "t_0082",
+      "board": "core",
+      "board_name": "Core queue",
+      "title": "Split the settings page into two panels",
+      "assignee": "architect",
+      "summary": "Shipped behind the existing flag, no config change needed.",
+      "comment": "Reproduced the failure first, then fixed it.",
+      "comment_author": "architect",
+      "status": "done",
+      "completed_at": 1792537706,
+      "last_event": 1792537822,
+      "last_event_h": 1.8
+     },
+     {
+      "id": "t_0029",
+      "board": "core",
+      "board_name": "Core queue",
+      "title": "Fix the flaky cache invalidation test",
+      "assignee": "architect",
+      "summary": "Verified against the acceptance criteria on the card.",
+      "comment": "Numbers in the ticket were stale; used the fresh run instead.",
+      "comment_author": "architect",
+      "status": "done",
+      "completed_at": 1792500047,
+      "last_event": 1792500047,
+      "last_event_h": 12.3
+     },
+     {
+      "id": "t_0027",
+      "board": "core",
+      "board_name": "Core queue",
+      "title": "Document the webhook signing scheme",
+      "assignee": "architect",
+      "summary": "Refactored, then re-ran the suite twice to rule out flake.",
+      "comment": "Checked the edge case where the list is empty; behaves as expected.",
+      "comment_author": "architect",
+      "status": "done",
+      "completed_at": 1792499804,
+      "last_event": 1792499804,
+      "last_event_h": 12.3
+     },
+     {
+      "id": "t_0012",
+      "board": "core",
+      "board_name": "Core queue",
+      "title": "Reduce the cold start of the index job",
+      "assignee": "architect",
+      "summary": "Landed with a test that fails without the change.",
+      "comment": null,
+      "comment_author": null,
+      "status": "done",
+      "completed_at": 1792420940,
+      "last_event": 1792420940,
+      "last_event_h": 34.3
+     },
+     {
+      "id": "t_0007",
+      "board": "core",
+      "board_name": "Core queue",
+      "title": "Cache the profile lookup per request",
+      "assignee": "architect",
+      "summary": "Done: the behaviour is covered by the new fixture.",
+      "comment": null,
+      "comment_author": null,
+      "status": "done",
+      "completed_at": 1792420745,
+      "last_event": 1792420745,
+      "last_event_h": 34.3
+     },
+     {
+      "id": "t_0015",
+      "board": "core",
+      "board_name": "Core queue",
+      "title": "Add a filter box to the card list",
+      "assignee": "architect",
+      "summary": "Shipped behind the existing flag, no config change needed.",
+      "comment": null,
+      "comment_author": null,
+      "status": "done",
+      "completed_at": 1792420699,
+      "last_event": 1792420699,
+      "last_event_h": 34.3
+     },
+     {
+      "id": "t_0006",
+      "board": "core",
+      "board_name": "Core queue",
+      "title": "Move the chart legend under the plot",
+      "assignee": "architect",
+      "summary": "Verified against the acceptance criteria on the card.",
+      "comment": null,
+      "comment_author": null,
+      "status": "done",
+      "completed_at": 1792420363,
+      "last_event": 1792420363,
+      "last_event_h": 34.4
+     },
+     {
+      "id": "t_0004",
+      "board": "core",
+      "board_name": "Core queue",
+      "title": "Ship the empty state for a fresh install",
+      "assignee": "architect",
+      "summary": "Refactored, then re-ran the suite twice to rule out flake.",
+      "comment": null,
+      "comment_author": null,
+      "status": "done",
+      "completed_at": 1792420188,
+      "last_event": 1792420188,
+      "last_event_h": 34.5
+     },
+     {
+      "id": "t_0003",
+      "board": "core",
+      "board_name": "Core queue",
+      "title": "Measure p95 latency on the search path",
+      "assignee": "architect",
+      "summary": "Landed with a test that fails without the change.",
+      "comment": "Reproduced the failure first, then fixed it.",
+      "comment_author": "architect",
+      "status": "done",
+      "completed_at": 1792418957,
+      "last_event": 1792418957,
+      "last_event_h": 34.8
+     }
+    ],
+    "running": [],
+    "blocked": [],
+    "activity": 11
+   },
+   {
+    "department": "Build",
+    "finished": [
+     {
+      "id": "t_0094",
+      "board": "core",
+      "board_name": "Core queue",
+      "title": "Backfill the missing created_at values",
+      "assignee": "builder",
+      "summary": "Landed with a test that fails without the change.",
+      "comment": "Checked the edge case where the list is empty; behaves as expected.",
+      "comment_author": "builder",
+      "status": "done",
+      "completed_at": 1792543263,
+      "last_event": 1792543263,
+      "last_event_h": 0.3
+     },
+     {
+      "id": "t_0077",
+      "board": "core",
+      "board_name": "Core queue",
+      "title": "Review the migration plan before friday",
+      "assignee": "builder",
+      "summary": "Done: the behaviour is covered by the new fixture.",
+      "comment": "Left a note in the PR about the follow-up this unblocks.",
+      "comment_author": "builder",
+      "status": "done",
+      "completed_at": 1792505030,
+      "last_event": 1792505030,
+      "last_event_h": 10.9
+     },
+     {
+      "id": "t_0034",
+      "board": "core",
+      "board_name": "Core queue",
+      "title": "Cut the release branch and tag it",
+      "assignee": "builder",
+      "summary": "Shipped behind the existing flag, no config change needed.",
+      "comment": "Reproduced the failure first, then fixed it.",
+      "comment_author": "builder",
+      "status": "done",
+      "completed_at": 1792503992,
+      "last_event": 1792503992,
+      "last_event_h": 11.2
+     },
+     {
+      "id": "t_0033",
+      "board": "core",
+      "board_name": "Core queue",
+      "title": "Add an index on the events table",
+      "assignee": "builder",
+      "summary": "Verified against the acceptance criteria on the card.",
+      "comment": "Numbers in the ticket were stale; used the fresh run instead.",
+      "comment_author": "builder",
+      "status": "done",
+      "completed_at": 1792501551,
+      "last_event": 1792501687,
+      "last_event_h": 11.8
+     },
+     {
+      "id": "t_0010",
+      "board": "core",
+      "board_name": "Core queue",
+      "title": "Deduplicate the notification emails",
+      "assignee": "builder",
+      "summary": "Refactored, then re-ran the suite twice to rule out flake.",
+      "comment": "Checked the edge case where the list is empty; behaves as expected.",
+      "comment_author": "manager",
+      "status": "done",
+      "completed_at": 1792421259,
+      "last_event": 1792421259,
+      "last_event_h": 34.2
+     },
+     {
+      "id": "t_0022",
+      "board": "core",
+      "board_name": "Core queue",
+      "title": "Tighten the validation on the import",
+      "assignee": "builder",
+      "summary": "Landed with a test that fails without the change.",
+      "comment": "Left a note in the PR about the follow-up this unblocks.",
+      "comment_author": "builder",
+      "status": "done",
+      "completed_at": 1792421040,
+      "last_event": 1792421040,
+      "last_event_h": 34.2
+     }
+    ],
+    "running": [
+     {
+      "id": "t_0098",
+      "board": "core",
+      "board_name": "Core queue",
+      "title": "Replace the polling loop with a websocket",
+      "assignee": "builder",
+      "status": "running",
+      "started_at": 1792543673,
+      "running_h": 0.2,
+      "summary": null
+     },
+     {
+      "id": "t_0099",
+      "board": "core",
+      "board_name": "Core queue",
+      "title": "Log the slowest query per request",
+      "assignee": "builder",
+      "status": "running",
+      "started_at": 1792543673,
+      "running_h": 0.2,
+      "summary": null
+     },
+     {
+      "id": "t_0102",
+      "board": "core",
+      "board_name": "Core queue",
+      "title": "Expose a health endpoint on the worker",
+      "assignee": "builder",
+      "status": "running",
+      "started_at": 1792543673,
+      "running_h": 0.2,
+      "summary": null
+     }
+    ],
+    "blocked": [
+     {
+      "id": "t_0071",
+      "board": "core",
+      "board_name": "Core queue",
+      "title": "Tidy the error messages in the CLI",
+      "assignee": "builder",
+      "status": "blocked",
+      "block_kind": "needs_input",
+      "last_event": 1792541174,
+      "last_event_h": 0.9
+     }
+    ],
+    "activity": 10
+   },
+   {
+    "department": "Marketing",
+    "finished": [
+     {
+      "id": "t_0092",
+      "board": "core",
+      "board_name": "Core queue",
+      "title": "Retire the old config flags",
+      "assignee": "marketer",
+      "summary": "Landed with a test that fails without the change.",
+      "comment": null,
+      "comment_author": null,
+      "status": "done",
+      "completed_at": 1792542335,
+      "last_event": 1792542335,
+      "last_event_h": 0.5
+     },
+     {
+      "id": "t_0089",
+      "board": "core",
+      "board_name": "Core queue",
+      "title": "Pin the dependency floor and ceiling",
+      "assignee": "marketer",
+      "summary": "Done: the behaviour is covered by the new fixture.",
+      "comment": null,
+      "comment_author": null,
+      "status": "done",
+      "completed_at": 1792541836,
+      "last_event": 1792541836,
+      "last_event_h": 0.7
+     },
+     {
+      "id": "t_0090",
+      "board": "core",
+      "board_name": "Core queue",
+      "title": "Add a smoke test for the auth flow",
+      "assignee": "marketer",
+      "summary": "Shipped behind the existing flag, no config change needed.",
+      "comment": null,
+      "comment_author": null,
+      "status": "done",
+      "completed_at": 1792541774,
+      "last_event": 1792541774,
+      "last_event_h": 0.7
+     },
+     {
+      "id": "t_0086",
+      "board": "core",
+      "board_name": "Core queue",
+      "title": "Add a retry budget to the queue worker",
+      "assignee": "marketer",
+      "summary": "Verified against the acceptance criteria on the card.",
+      "comment": null,
+      "comment_author": null,
+      "status": "done",
+      "completed_at": 1792540722,
+      "last_event": 1792540722,
+      "last_event_h": 1.0
+     },
+     {
+      "id": "t_0083",
+      "board": "core",
+      "board_name": "Core queue",
+      "title": "Write the runbook for the nightly export",
+      "assignee": "marketer",
+      "summary": "Refactored, then re-ran the suite twice to rule out flake.",
+      "comment": null,
+      "comment_author": null,
+      "status": "done",
+      "completed_at": 1792537704,
+      "last_event": 1792537704,
+      "last_event_h": 1.8
+     },
+     {
+      "id": "t_0023",
+      "board": "core",
+      "board_name": "Core queue",
+      "title": "Split the settings page into two panels",
+      "assignee": "marketer",
+      "summary": "Landed with a test that fails without the change.",
+      "comment": null,
+      "comment_author": null,
+      "status": "done",
+      "completed_at": 1792487116,
+      "last_event": 1792487116,
+      "last_event_h": 15.9
+     }
+    ],
+    "running": [],
+    "blocked": [
+     {
+      "id": "t_0103",
+      "board": "core",
+      "board_name": "Core queue",
+      "title": "Fix the flaky cache invalidation test",
+      "assignee": "marketer",
+      "status": "blocked",
+      "block_kind": "needs_input",
+      "last_event": 1792541830,
+      "last_event_h": 0.7
+     }
+    ],
+    "activity": 7
+   },
+   {
+    "department": "Design",
+    "finished": [
+     {
+      "id": "t_0091",
+      "board": "core",
+      "board_name": "Core queue",
+      "title": "Document the webhook signing scheme",
+      "assignee": "designer",
+      "summary": "Landed with a test that fails without the change.",
+      "comment": null,
+      "comment_author": null,
+      "status": "done",
+      "completed_at": 1792542218,
+      "last_event": 1792542218,
+      "last_event_h": 0.6
+     },
+     {
+      "id": "t_0088",
+      "board": "core",
+      "board_name": "Core queue",
+      "title": "Reduce the cold start of the index job",
+      "assignee": "designer",
+      "summary": "Done: the behaviour is covered by the new fixture.",
+      "comment": "Left a note in the PR about the follow-up this unblocks.",
+      "comment_author": "manager",
+      "status": "done",
+      "completed_at": 1792541912,
+      "last_event": 1792542036,
+      "last_event_h": 0.6
+     },
+     {
+      "id": "t_0087",
+      "board": "core",
+      "board_name": "Core queue",
+      "title": "Cache the profile lookup per request",
+      "assignee": "designer",
+      "summary": "Shipped behind the existing flag, no config change needed.",
+      "comment": "Reproduced the failure first, then fixed it.",
+      "comment_author": "manager",
+      "status": "done",
+      "completed_at": 1792541577,
+      "last_event": 1792542036,
+      "last_event_h": 0.6
+     },
+     {
+      "id": "t_0085",
+      "board": "core",
+      "board_name": "Core queue",
+      "title": "Add a filter box to the card list",
+      "assignee": "designer",
+      "summary": "Verified against the acceptance criteria on the card.",
+      "comment": "Numbers in the ticket were stale; used the fresh run instead.",
+      "comment_author": "manager",
+      "status": "done",
+      "completed_at": 1792541195,
+      "last_event": 1792541296,
+      "last_event_h": 0.8
+     },
+     {
+      "id": "t_0017",
+      "board": "core",
+      "board_name": "Core queue",
+      "title": "Move the chart legend under the plot",
+      "assignee": "designer",
+      "summary": "Refactored, then re-ran the suite twice to rule out flake.",
+      "comment": "Checked the edge case where the list is empty; behaves as expected.",
+      "comment_author": "designer",
+      "status": "done",
+      "completed_at": 1792421102,
+      "last_event": 1792421102,
+      "last_event_h": 34.2
+     }
+    ],
+    "running": [],
+    "blocked": [],
+    "activity": 5
+   },
+   {
+    "department": "Review",
+    "finished": [
+     {
+      "id": "t_0028",
+      "board": "core",
+      "board_name": "Core queue",
+      "title": "Ship the empty state for a fresh install",
+      "assignee": "reviewer",
+      "summary": "Landed with a test that fails without the change.",
+      "comment": "Checked the edge case where the list is empty; behaves as expected.",
+      "comment_author": "reviewer",
+      "status": "done",
+      "completed_at": 1792499843,
+      "last_event": 1792499843,
+      "last_event_h": 12.3
+     },
+     {
+      "id": "t_0018",
+      "board": "core",
+      "board_name": "Core queue",
+      "title": "Measure p95 latency on the search path",
+      "assignee": "reviewer",
+      "summary": "Done: the behaviour is covered by the new fixture.",
+      "comment": "Left a note in the PR about the follow-up this unblocks.",
+      "comment_author": "reviewer",
+      "status": "done",
+      "completed_at": 1792421101,
+      "last_event": 1792421101,
+      "last_event_h": 34.2
+     }
+    ],
+    "running": [],
+    "blocked": [],
+    "activity": 2
+   },
+   {
+    "department": "Operations",
+    "finished": [
+     {
+      "id": "t_0080",
+      "board": "core",
+      "board_name": "Core queue",
+      "title": "Backfill the missing created_at values",
+      "assignee": "ops",
+      "summary": "Landed with a test that fails without the change.",
+      "comment": null,
+      "comment_author": null,
+      "status": "done",
+      "completed_at": 1792392136,
+      "last_event": 1792392136,
+      "last_event_h": 42.3
+     }
+    ],
+    "running": [],
+    "blocked": [],
+    "activity": 1
+   },
+   {
+    "department": "ceo",
+    "finished": [
+     {
+      "id": "t_0020",
+      "board": "core",
+      "board_name": "Core queue",
+      "title": "Review the migration plan before friday",
+      "assignee": "manager",
+      "summary": "Landed with a test that fails without the change.",
+      "comment": "Checked the edge case where the list is empty; behaves as expected.",
+      "comment_author": "manager",
+      "status": "done",
+      "completed_at": 1792420914,
+      "last_event": 1792420914,
+      "last_event_h": 34.3
+     }
+    ],
+    "running": [],
+    "blocked": [],
+    "activity": 1
+   },
+   {
+    "department": "orchestrator",
+    "finished": [
+     {
+      "id": "t_0019",
+      "board": "core",
+      "board_name": "Core queue",
+      "title": "Cut the release branch and tag it",
+      "assignee": "orchestrator",
+      "summary": "Landed with a test that fails without the change.",
+      "comment": "Checked the edge case where the list is empty; behaves as expected.",
+      "comment_author": "orchestrator",
+      "status": "done",
+      "completed_at": 1792421104,
+      "last_event": 1792421104,
+      "last_event_h": 34.2
+     }
+    ],
+    "running": [],
+    "blocked": [],
+    "activity": 1
+   },
+   {
+    "department": "unassigned",
+    "finished": [],
+    "running": [],
+    "blocked": [],
+    "activity": 0
+   }
+  ],
+  "departments": 10,
+  "finished": 50,
+  "running": 4,
+  "blocked": 2
+ },
+ "net_flow": {
+  "granularity": "day",
+  "buckets": [
+   {
+    "label": "Oct 14",
+    "start": 1791939455.1227694,
+    "end": 1792025855.1227694,
+    "created": 0,
+    "completed": 0,
+    "net": 0
+   },
+   {
+    "label": "Oct 15",
+    "start": 1792025855.1227694,
+    "end": 1792112255.1227694,
+    "created": 0,
+    "completed": 0,
+    "net": 0
+   },
+   {
+    "label": "Oct 16",
+    "start": 1792112255.1227694,
+    "end": 1792198655.1227694,
+    "created": 0,
+    "completed": 0,
+    "net": 0
+   },
+   {
+    "label": "Oct 17",
+    "start": 1792198655.1227694,
+    "end": 1792285055.1227694,
+    "created": 0,
+    "completed": 0,
+    "net": 0
+   },
+   {
+    "label": "Oct 18",
+    "start": 1792285055.1227694,
+    "end": 1792371455.1227694,
+    "created": 0,
+    "completed": 0,
+    "net": 0
+   },
+   {
+    "label": "Oct 19",
+    "start": 1792371455.1227694,
+    "end": 1792457855.1227694,
+    "created": 23,
+    "completed": 23,
+    "net": 0
+   },
+   {
+    "label": "Oct 20",
+    "start": 1792457855.1227694,
+    "end": 1792544255.1227694,
+    "created": 45,
+    "completed": 27,
+    "net": 18
+   }
+  ],
+  "total_created": 68,
+  "total_completed": 50,
+  "net": 18
+ },
+ "errors": []
+}

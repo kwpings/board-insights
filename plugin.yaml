@@ -1,0 +1,16 @@
+name: board-insights
+label: Board insights
+version: 1.0.0
+kind: standalone
+author: Lance Enriquez
+homepage: https://github.com/kwpings/board-insights
+requires_hermes: ">=0.22.0"
+description: >-
+  A read-only analytics page for the Hermes Kanban boards: what is in flight right now,
+  what is waiting on a person, whether throughput is rising or dipping over the last 3 to
+  90 days, run medians and stale runs, and every unfinished card across every board in one
+  filterable list. It opens each kanban.db with SQLite mode=ro and has no write path, no
+  model calls and no configuration.
+provides_tools: []
+provides_hooks: []
+tags: [kanban, dashboard, analytics, read-only, desktop]

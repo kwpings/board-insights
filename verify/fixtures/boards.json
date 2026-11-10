@@ -1,0 +1,75 @@
+{
+ "boards": [
+  {
+   "slug": "agents",
+   "name": "Agents",
+   "icon": "\ud83e\udd16",
+   "description": "Building and maintaining the agents themselves.",
+   "color": "",
+   "counts": {
+    "ready": 9,
+    "triage": 1
+   },
+   "open": 10,
+   "done": 0
+  },
+  {
+   "slug": "delivery",
+   "name": "Work - RaaS automation",
+   "icon": "\ud83d\udd01",
+   "description": "Client delivery: workflows, spreadsheets, mail ops.",
+   "color": "",
+   "counts": {
+    "done": 2,
+    "ready": 7,
+    "blocked": 2
+   },
+   "open": 9,
+   "done": 2
+  },
+  {
+   "slug": "growth",
+   "name": "Growth",
+   "icon": "\ud83d\udcbc",
+   "description": "Content, outreach and audience work.",
+   "color": "",
+   "counts": {
+    "ready": 2
+   },
+   "open": 2,
+   "done": 0
+  },
+  {
+   "slug": "core",
+   "name": "Core queue",
+   "icon": "",
+   "description": "",
+   "color": "",
+   "counts": {
+    "done": 50,
+    "ready": 1,
+    "blocked": 2,
+    "todo": 11,
+    "running": 4
+   },
+   "open": 18,
+   "done": 50
+  },
+  {
+   "slug": "personal",
+   "name": "Personal",
+   "icon": "\ud83c\udfe0",
+   "description": "Non-work: home, finance, learning, life admin",
+   "color": "",
+   "counts": {
+    "ready": 13,
+    "done": 1,
+    "triage": 2
+   },
+   "open": 15,
+   "done": 1
+  }
+ ],
+ "errors": [],
+ "now": 1792544255.1529293
+}

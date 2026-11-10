@@ -1,0 +1,8 @@
+{
+  "name": "board-insights",
+  "label": "Board insights",
+  "description": "Read-only analytics over the Kanban boards: in-flight tiles, created vs completed trends, run outcomes, and every unfinished card across boards. It never writes to a board.",
+  "icon": "Graph",
+  "version": "1.0.0",
+  "api": "plugin_api.py"
+}

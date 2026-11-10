@@ -1,0 +1,145 @@
+{
+ "now": 1792500957.136248,
+ "days": 1,
+ "boards": [
+  "agents",
+  "delivery",
+  "linkedin",
+  "core",
+  "personal"
+ ],
+ "columns": {
+  "ready": 32,
+  "triage": 3,
+  "done": 36,
+  "blocked": 2,
+  "todo": 7,
+  "running": 1
+ },
+ "backlog_columns": {
+  "ready": 32,
+  "triage": 3,
+  "blocked": 2,
+  "todo": 7,
+  "running": 1
+ },
+ "tiles": {
+  "in_flight": 3,
+  "running": 1,
+  "blocked": 2,
+  "review": 0,
+  "ready": 32,
+  "queue": 42,
+  "created_1d": 42,
+  "completed_1d": 32,
+  "completed_prev_1d": 1,
+  "net_1d": 10
+ },
+ "blockers": [
+  {
+   "id": "t_0070",
+   "board": "delivery",
+   "board_name": "Core queue",
+   "title": "Tidy the error messages in the CLI",
+   "status": "blocked",
+   "assignee": "automation",
+   "age_h": 246.4,
+   "running_h": 142.9,
+   "waiting_h": 142.9
+  },
+  {
+   "id": "t_0071",
+   "board": "core",
+   "board_name": "Core queue",
+   "title": "Retire the old config flags",
+   "status": "blocked",
+   "assignee": "builder",
+   "age_h": 0.5,
+   "running_h": 0.4,
+   "waiting_h": 0.4
+  }
+ ],
+ "running_top": [
+  {
+   "id": "t_0033",
+   "board": "core",
+   "board_name": "Core queue",
+   "title": "Pin the dependency floor and ceiling",
+   "status": "running",
+   "assignee": "builder",
+   "age_h": 0.2,
+   "running_h": 0.2,
+   "waiting_h": 0.2
+  }
+ ],
+ "oldest_ready": [
+  {
+   "id": "t_0035",
+   "board": "agents",
+   "board_name": "Core queue",
+   "title": "Add a smoke test for the auth flow",
+   "status": "ready",
+   "assignee": null,
+   "age_h": 246.4,
+   "running_h": null,
+   "waiting_h": 246.4
+  },
+  {
+   "id": "t_0036",
+   "board": "agents",
+   "board_name": "Core queue",
+   "title": "Add a retry budget to the queue worker",
+   "status": "ready",
+   "assignee": null,
+   "age_h": 246.4,
+   "running_h": null,
+   "waiting_h": 246.4
+  },
+  {
+   "id": "t_0037",
+   "board": "agents",
+   "board_name": "Core queue",
+   "title": "Write the runbook for the nightly export",
+   "status": "ready",
+   "assignee": null,
+   "age_h": 246.4,
+   "running_h": null,
+   "waiting_h": 246.4
+  },
+  {
+   "id": "t_0038",
+   "board": "agents",
+   "board_name": "Core queue",
+   "title": "Split the settings page into two panels",
+   "status": "ready",
+   "assignee": null,
+   "age_h": 246.4,
+   "running_h": null,
+   "waiting_h": 246.4
+  },
+  {
+   "id": "t_0039",
+   "board": "agents",
+   "board_name": "Core queue",
+   "title": "Fix the flaky cache invalidation test",
+   "status": "ready",
+   "assignee": null,
+   "age_h": 246.4,
+   "running_h": null,
+   "waiting_h": 246.4
+  }
+ ],
+ "cycle": {
+  "run": {
+   "median_h": 0.1,
+   "p90_h": 0.2,
+   "n": 32
+  },
+  "lead": {
+   "median_h": 0.1,
+   "p90_h": 0.2,
+   "n": 32
+  }
+ },
+ "errors": []
+}

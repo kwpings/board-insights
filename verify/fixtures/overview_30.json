@@ -1,0 +1,145 @@
+{
+ "now": 1792500957.1563275,
+ "days": 30,
+ "boards": [
+  "agents",
+  "delivery",
+  "linkedin",
+  "core",
+  "personal"
+ ],
+ "columns": {
+  "ready": 32,
+  "triage": 3,
+  "done": 36,
+  "blocked": 2,
+  "todo": 7,
+  "running": 1
+ },
+ "backlog_columns": {
+  "ready": 32,
+  "triage": 3,
+  "blocked": 2,
+  "todo": 7,
+  "running": 1
+ },
+ "tiles": {
+  "in_flight": 3,
+  "running": 1,
+  "blocked": 2,
+  "review": 0,
+  "ready": 32,
+  "queue": 42,
+  "created_30d": 81,
+  "completed_30d": 36,
+  "completed_prev_30d": 0,
+  "net_30d": 45
+ },
+ "blockers": [
+  {
+   "id": "t_0070",
+   "board": "delivery",
+   "board_name": "Core queue",
+   "title": "Document the webhook signing scheme",
+   "status": "blocked",
+   "assignee": "automation",
+   "age_h": 246.4,
+   "running_h": 142.9,
+   "waiting_h": 142.9
+  },
+  {
+   "id": "t_0071",
+   "board": "core",
+   "board_name": "Core queue",
+   "title": "Reduce the cold start of the index job",
+   "status": "blocked",
+   "assignee": "builder",
+   "age_h": 0.5,
+   "running_h": 0.4,
+   "waiting_h": 0.4
+  }
+ ],
+ "running_top": [
+  {
+   "id": "t_0033",
+   "board": "core",
+   "board_name": "Core queue",
+   "title": "Cache the profile lookup per request",
+   "status": "running",
+   "assignee": "builder",
+   "age_h": 0.2,
+   "running_h": 0.2,
+   "waiting_h": 0.2
+  }
+ ],
+ "oldest_ready": [
+  {
+   "id": "t_0035",
+   "board": "agents",
+   "board_name": "Core queue",
+   "title": "Add a filter box to the card list",
+   "status": "ready",
+   "assignee": null,
+   "age_h": 246.4,
+   "running_h": null,
+   "waiting_h": 246.4
+  },
+  {
+   "id": "t_0036",
+   "board": "agents",
+   "board_name": "Core queue",
+   "title": "Move the chart legend under the plot",
+   "status": "ready",
+   "assignee": null,
+   "age_h": 246.4,
+   "running_h": null,
+   "waiting_h": 246.4
+  },
+  {
+   "id": "t_0037",
+   "board": "agents",
+   "board_name": "Core queue",
+   "title": "Ship the empty state for a fresh install",
+   "status": "ready",
+   "assignee": null,
+   "age_h": 246.4,
+   "running_h": null,
+   "waiting_h": 246.4
+  },
+  {
+   "id": "t_0038",
+   "board": "agents",
+   "board_name": "Core queue",
+   "title": "Measure p95 latency on the search path",
+   "status": "ready",
+   "assignee": null,
+   "age_h": 246.4,
+   "running_h": null,
+   "waiting_h": 246.4
+  },
+  {
+   "id": "t_0039",
+   "board": "agents",
+   "board_name": "Core queue",
+   "title": "Backfill the missing created_at values",
+   "status": "ready",
+   "assignee": null,
+   "age_h": 246.4,
+   "running_h": null,
+   "waiting_h": 246.4
+  }
+ ],
+ "cycle": {
+  "run": {
+   "median_h": 0.1,
+   "p90_h": 0.3,
+   "n": 36
+  },
+  "lead": {
+   "median_h": 0.1,
+   "p90_h": 0.3,
+   "n": 36
+  }
+ },
+ "errors": []
+}
